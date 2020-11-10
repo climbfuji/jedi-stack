@@ -33,6 +33,7 @@ if $MODULES; then
     module try-load cmake
     module try-load boost-headers
     module try-load zlib
+    module try-load mpfr
     module list
     set -x
 
