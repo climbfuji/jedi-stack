@@ -5,8 +5,8 @@
 
 
 # Compiler/MPI combination
-export JEDI_COMPILER="intel/19.0.5"
-export JEDI_MPI="impi/19.0.5"
+export JEDI_COMPILER="intel/2021.1"
+export JEDI_MPI="impi/2021.1"
 source /opt/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64
 export PATH=/usr/local/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
@@ -24,7 +24,7 @@ export COMPILER_BUILD="native-pkg"
 export MPI_BUILD="native-pkg"
 
 # Build options
-export PREFIX=/opt/jedi
+export PREFIX=/opt/jedistack
 export USE_SUDO=N
 export PKGDIR=pkg
 export LOGDIR=buildscripts/log
@@ -32,7 +32,7 @@ export OVERWRITE=N
 export NTHREADS=4
 export   MAKE_CHECK=N
 export MAKE_VERBOSE=N
-export   MAKE_CLEAN=Y
+export   MAKE_CLEAN=N
 export DOWNLOAD_ONLY=F
 export STACK_EXIT_ON_FAIL=T
 export WGET="wget -nv"
