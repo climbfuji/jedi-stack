@@ -157,6 +157,8 @@ software=$name-"cxx4"-$version
 mkdir -p build && cd build
 
 ../configure --prefix=$prefix
+# Bug fix for case-insensitive macOS file systems
+mv -v VERSION VERSION.txt
 
 # If on macos, rename the file "VERSION" so it doesn't collide with the
 # c++ include file (named "version"). Note this collision occurs since macos
