@@ -5,7 +5,9 @@ set -e
 # Cheyenne
 #BASEDIR=/glade/work/jedipara/cheyenne/opt/modules/modulefiles/mpi/gnu/10.1.0/openmpi/4.1.0
 # Orion
-BASEDIR=/work/noaa/da/jedipara/opt/modules/modulefiles/mpi/gnu/10.2.0/openmpi/4.0.4
+#BASEDIR=/work/noaa/da/jedipara/opt/modules/modulefiles/mpi/gnu/10.2.0/openmpi/4.0.4
+# S4
+BASEDIR=/data/prod/jedi/opt/modules/modulefiles/mpi/intel/19.0.5/impi/19.0.5
 cd $BASEDIR
 pwd
  
