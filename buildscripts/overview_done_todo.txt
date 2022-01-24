@@ -1,0 +1,41 @@
+ECMWF package updates with defaults (links) pointing to old versions:
+
+
+DONE AND LINKS CORRECTED:
+
+CHEYENNE
+
+/glade/work/jedipara/cheyenne/opt/modules/modulefiles/mpi/intel/2021.2/impi/2021.2
+/glade/work/jedipara/cheyenne/opt/modules/modulefiles/mpi/intel/19.1.1/impi/2019.7.217
+/glade/work/jedipara/cheyenne/opt/modules/modulefiles/mpi/intel/19.0.5/impi/2019.6.154
+
+/glade/work/jedipara/cheyenne/opt/modules/modulefiles/mpi/gnu/10.1.0/openmpi/4.1.0
+/glade/work/jedipara/cheyenne/opt/modules/modulefiles/mpi/gnu/9.1.0/openmpi/4.1.0
+
+
+ORION
+
+/work/noaa/da/jedipara/opt/modules/modulefiles/mpi/intel/2020.2/impi/2020.2
+/work/noaa/da/jedipara/opt/modules/modulefiles/mpi/gnu/10.2.0/openmpi/4.0.4
+
+
+
+
+
+
+INSTALLED BUT LINKS NOT YET CORRECTED
+
+
+
+
+
+
+NOT YET DONE
+
+
+ORION
+HERA
+DISCOVER
+
+
+
